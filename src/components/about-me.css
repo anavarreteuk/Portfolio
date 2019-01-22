@@ -1,0 +1,29 @@
+.box {
+  padding: 12px;
+  margin-bottom: 80px;
+  border-style: solid;
+  border-color: rgba(51, 122, 183, 0.1);
+  border-width: thin;
+  border-radius: 5px;
+  box-shadow: 0 12px 12px 0 #d3d3d3;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.box h5 {
+  font-weight: 500px;
+  border-bottom: 2px solid #0a0a0a;
+  color: #337ab7;
+}
+
+.box p {
+  font-size: 14px;
+}
+
+.skillsBox {
+  text-align: center
+}
+
+.skillsBox img{
+  padding: 4px;
+}

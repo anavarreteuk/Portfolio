@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Music it",
+    "description": "WebApp where students can find a teacher around them, book lessons and keep track of the lessons. Built using a RESTful Web API using Ruby on Rails and React.js + Material UI for the front-end.",
+    "img": "playit.png",
+    "youtube": "https://www.youtube.com/watch?v=U__3OjGuW2M",
+    "github": "https://github.com/anavarreteuk/Playit-frontend"
+  },
+  {
+    "name": "Tasky",
+    "description": "Online Task Management system where users can delegate tasks and monitor progress. Built using a RESTful Web Api using Ruby on Rails and React.js + Semantic UI for the front-end",
+    "img": "tasky.png",
+      "youtube": "https://www.youtube.com/watch?v=L1OFERx4_yI",
+      "github": "https://github.com/anavarreteuk/todo-front"
+  },
+  {
+    "name": "FX Trading Game",
+    "description": "Trading game consisting in buying and selling currencies.Written in JavaScript, using Ruby on Rails for the back-end API. External API gathered real-time FX prices then we store the data in the Database (API usage limits). ",
+    "img": "trader.png",
+      "youtube": "https://www.youtube.com/watch?v=FAmO--RdNps",
+      "github": "https://github.com/anavarreteuk/Stock-Market-Game-FrontEnd"
+  },
+    {
+      "name": "Rent Trader",
+      "description": "Online house swapping app built with the purpose of helping people to exchange homes. Developed a Rails API backend. Implemented user interface employing HTML and CSS for styling.",
+      "img": "rent.png",
+        "youtube": "https://www.youtube.com/watch?v=t-Hl03pr330",
+        "github": "https://github.com/anavarreteuk/Rent-Trade-App-1"
+    }
+]

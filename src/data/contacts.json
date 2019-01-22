@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Github",
+    "icon": "github",
+    "type": "social-media",
+    "url": "https://github.com/anavarreteuk"
+  },
+  {
+    "name": "Instagram",
+    "icon": "linkedin",
+    "type": "social-media",
+    "url": "https://www.linkedin.com/in/adrian-navarrete-50b301178/"
+  },
+  {
+    "name": "Medium",
+    "icon": "medium",
+    "type": "social-media",
+    "url": "https://medium.com/@a.navarrete.uk"
+  },
+
+  {
+    "name": "Email",
+    "icon": "envelope",
+    "type": "email",
+    "url": "mailto:a.navarrete.uk@gmail.com"
+  }
+]
