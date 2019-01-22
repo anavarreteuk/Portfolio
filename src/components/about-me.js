@@ -61,7 +61,7 @@ const AboutMe = ({ profileImg }) => {
             </div>
           </div>
 
-          <div className="col-lg-5 col-md-5 col-6 ">
+          <div className="col-lg-5 col-md-5 col-12 ">
             <div className="box">
               <h5>Full Stack Web Developer in Training</h5>
               <h6>
@@ -110,7 +110,7 @@ const AboutMe = ({ profileImg }) => {
               </p>
             </div> */}
 
-        <div className="col-lg-12  col-md-12 col-6">
+        <div className="col-lg-12  col-md-12  col-12">
           <div className="skillsBox">
             <img className="icon" src={Html} />
             <img className="icon" src={Css} />
