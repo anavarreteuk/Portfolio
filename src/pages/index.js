@@ -11,6 +11,7 @@ import { Helmet } from "react-helmet";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "font-awesome/css/font-awesome.min.css";
 import "./index.css";
+import icon32 from "../../src/static/logo/favicon.png";
 
 const HomePage = ({ data }) => {
   const siteTitle = data.site.siteMetadata.title;
@@ -21,7 +22,10 @@ const HomePage = ({ data }) => {
     <div>
       <Helmet>
         <title>{siteTitle}</title>
-        <meta name="description" content={metaDescr} />
+        <meta name="description" content={metaDescr}
+          link={[
+            { rel: 'shortcut icon', type: 'image/png', href: `${icon32}` }
+          ]} />
       
       </Helmet>
       <Cover coverImg={data.coverImg} />
