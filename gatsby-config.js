@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: "Adrian Navarrete || Home",
     description:
-      "My mission as a developer is to contribute to applications that empower and motivate lives. Let's change the world together.",
+      "Adrian Navarrete Portfolio Full Stack Software Developer",
     siteUrl: "https://www.adrian-navarrete.com",
     author: "adriannavarrete",
     twitter: ""
@@ -16,7 +16,8 @@ module.exports = {
         start_url: `/`,
         background_color: `#337ab7`,
         theme_color: `#337ab7`,
-        display: `fullscreen` // This path is relative to the root of the site.
+        display: `fullscreen`, // This path is relative to the root of the site.
+        icon: `src/images/logo/favicon.png`
       }
     },
     {
