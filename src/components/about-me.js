@@ -31,7 +31,7 @@ const AboutMe = ({ profileImg }) => {
             />
           </div>
           <div className="col-12 col-sm-12 col-md-6">
-            <h4>Summary</h4>
+            <h4 id='summary'>Summary</h4>
             <p>
               Full stack web developer with strong experience in orchestral
               music and music theory. I love team-oriented environments and

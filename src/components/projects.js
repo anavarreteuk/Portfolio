@@ -22,20 +22,11 @@ class Projects extends Component {
                 return n.node.relativePath === `projects/${project.img}`;
               });
               const imageSizes = image.node.childImageSharp.sizes;
-              return (
-                <div
-                  key={project.name}
-                  className="single-card"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+              return <div key={project.name} className="single-card" target="_blank" rel="noopener noreferrer">
                   <div className="card-img">
-                    <Img
-                      title={project.name}
-                      alt="Screenshot of Project"
-                      sizes={imageSizes}
-                      className="card-img_src center-block"
-                    />
+                  <a href="https://www.fxtrader.adrian-navarrete.com">
+                      <Img title={project.name} alt="Screenshot of Project" sizes={imageSizes} className="card-img_src center-block" />
+                    </a>
                   </div>
                   <div className="blue-divider" />
                   <div className="card-info">
@@ -43,20 +34,17 @@ class Projects extends Component {
                     <p>{project.description}</p>
                     <div className="link-container">
                       {
-                        
-                          //  <a href={project.youtube} target="_blank" rel="noopener noreferrer">Demo</a>
-                          
+                        //  <a href={project.youtube} target="_blank" rel="noopener noreferrer">Demo</a>
                       }
-                      <a href={project.github} target="_blank" rel="noopener noreferrer">Code</a>
-                      {
-                       
-                         <a href={project.youtube} target="_blank" rel="noopener noreferrer">Presentation</a>
-                          
-                      }
+                      <a href={project.github} target="_blank" rel="noopener noreferrer">
+                        Code
+                      </a>
+                      {<a href={project.youtube} target="_blank" rel="noopener noreferrer">
+                          Presentation
+                        </a>}
                     </div>
                   </div>
-                </div>
-              );
+                </div>;
             })}
           </div>
         </div>
