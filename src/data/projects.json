@@ -5,6 +5,7 @@
     "img": "playit.png",
     "youtube": "https://www.youtube.com/watch?v=U__3OjGuW2M",
     "github": "https://github.com/anavarreteuk/Playit-frontend"
+   
   },
   {
     "name": "Tasky",
@@ -12,13 +13,15 @@
     "img": "tasky.png",
       "youtube": "https://www.youtube.com/watch?v=L1OFERx4_yI",
       "github": "https://github.com/anavarreteuk/todo-front"
+      
   },
   {
     "name": "FX Trading Game",
     "description": "Trading game consisting in buying and selling currencies.Written in JavaScript, using Ruby on Rails for the back-end API. External API gathered real-time FX prices then we store the data in the Database (API usage limits). ",
     "img": "trader.png",
       "youtube": "https://www.youtube.com/watch?v=FAmO--RdNps",
-      "github": "https://github.com/anavarreteuk/Stock-Market-Game-FrontEnd"
+      "github": "https://github.com/anavarreteuk/Stock-Market-Game-FrontEnd",
+      "url": "https://www.fxtrader.adrian-navarrete.com"
   },
     {
       "name": "Rent Trader",
@@ -26,5 +29,6 @@
       "img": "rent.png",
         "youtube": "https://www.youtube.com/watch?v=t-Hl03pr330",
         "github": "https://github.com/anavarreteuk/Rent-Trade-App-1"
+        
     }
 ]

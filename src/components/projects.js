@@ -24,7 +24,7 @@ class Projects extends Component {
               const imageSizes = image.node.childImageSharp.sizes;
               return <div key={project.name} className="single-card" target="_blank" rel="noopener noreferrer">
                   <div className="card-img">
-                  <a href="https://www.fxtrader.adrian-navarrete.com">
+                  <a href={project.url}>
                       <Img title={project.name} alt="Screenshot of Project" sizes={imageSizes} className="card-img_src center-block" />
                     </a>
                   </div>
