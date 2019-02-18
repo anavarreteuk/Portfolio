@@ -4,7 +4,8 @@
     "description": "WebApp where students can find a teacher around them, book lessons and keep track of the lessons. Built using a RESTful Web API using Ruby on Rails and React.js + Material UI for the front-end.",
     "img": "playit.png",
     "youtube": "https://www.youtube.com/watch?v=U__3OjGuW2M",
-    "github": "https://github.com/anavarreteuk/Playit-frontend"
+    "github": "https://github.com/anavarreteuk/Playit-frontend",
+    "url": "https://www.music.adrian-navarrete.com"
    
   },
   {
